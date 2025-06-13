@@ -220,3 +220,4 @@ export default function FigmaPlugin({ onCreateTask }: FigmaPluginProps) {
       </CardContent>
     </Card>
   );
+}
