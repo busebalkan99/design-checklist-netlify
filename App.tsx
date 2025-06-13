@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { AuthProvider, useAuth } from './components/AuthContext';
 import ChecklistApp from './components/ChecklistApp';
 import GoogleAuth from './components/GoogleAuth';
@@ -81,11 +81,11 @@ function AppContent() {
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-green-600 mt-0.5">✓</span>
-                  <span>Secure cloud storage with Google</span>
+                  <span>Access your Figma integrations</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-green-600 mt-0.5">✓</span>
-                  <span>Access your Figma integrations</span>
+                  <span>Secure cloud storage with Google</span>
                 </div>
               </div>
             </div>
