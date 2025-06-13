@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useAuth } from './AuthContext';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/button';
@@ -7,7 +7,7 @@ import { Progress } from './ui/progress';
 import { Checkbox } from './ui/checkbox';
 import { 
   Palette, Image, Code, Users, FileDown, Database, 
-  Loader2, Check, CheckCircle
+  Loader2, Check
 } from 'lucide-react';
 
 interface ChecklistItem {
